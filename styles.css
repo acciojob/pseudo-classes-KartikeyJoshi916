@@ -17,9 +17,12 @@ li{
 	padding:10px;
 	width:50%;
 }
+li:first-child,
+li:last-child{
+	font-size:22px;
+}
 li:nth-child(odd){
 	background-color:white;
-	font-size:22px;
 }
 li:nth-child(even){
 	background-color:gray;
